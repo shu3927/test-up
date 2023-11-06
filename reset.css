@@ -1,0 +1,25 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ html {
+    font-size: 62.5%;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+ body {
+    color: #333;
+    font-family:'Noto sans JP';
+    font-weight: 500px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+ }
+
+ li {
+    list-style: none;
+ }
+ h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+ }
