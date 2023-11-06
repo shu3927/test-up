@@ -1,0 +1,125 @@
+/* common css */
+.section-title {
+    font-size: 3rem;
+}
+
+
+/* ＝＝＝＝＝＝ヘッダー＝＝＝＝＝＝ */
+.header {
+    width: 100%;
+    height: 100px;
+    padding: 40px 0 0;
+}
+
+
+/* ナビゲーションエリア */
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 10px;
+}
+.header-nav img {
+    width: 20px;
+    height: auto;
+    background-size: cover;
+}
+
+
+/* ＝＝＝＝＝＝セクションアバウト＝＝＝＝＝＝ */
+/* トップビジュアル */
+.header-topvisual-img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 100px 24px 0;
+}
+.about .dear {
+    margin-top: 50px;
+}
+.about .address-container {
+    margin-top: 30px;
+}
+.about .profile {
+    font-weight: 500px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+/* ＝＝＝＝＝＝ワークスエリア＝＝＝＝＝＝ */
+.works {
+    padding: 60px 24px 0;
+}
+.works .works-pic-container {
+    margin-top: 50px;
+}
+.works .works-pic-container ul li img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* ＝＝＝＝＝＝ニュースセクション＝＝＝＝＝＝ */
+.news {
+    padding: 60px 24px 0;
+
+}
+.news-contents {
+    margin-top: 60px;
+}
+
+.news-contents ul li {
+    padding: 16px 16px;
+    border-top: 1px solid #cbcbcb;
+}
+.news-contents ul li:last-child {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+/* ＝＝＝＝＝＝コンタクトエリア＝＝＝＝＝＝ */
+
+.contact {
+    text-align: center;
+    padding: 80px 24px 0;
+}
+
+.form-area p {
+    text-align: left;
+    margin-top: 16px;
+}
+.form-area input {
+    width: 100%;
+    height: 40px;
+}
+.form-area .textarea {
+    width: 100%;
+}
+
+.form-area .submit-btn {
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+
+/* ＝＝＝＝＝＝フッター＝＝＝＝＝＝ */
+.footer {
+    margin-top: 80px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer span {
+    display: inline-block;
+    
+    color: #fff;
+    
+}
